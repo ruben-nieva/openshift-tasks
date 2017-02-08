@@ -66,7 +66,7 @@
       </repository>
        <snapshotRepository>
           <id>nexus</id>
-          <url>http://nexus:8081/content/repositories/snapshots</url>
+          <url>http://nexus-artifactory.apps.10.2.2.2.xip.io/repository/maven-snapshots/</url>
        </snapshotRepository>
     </distributionManagement>
 
