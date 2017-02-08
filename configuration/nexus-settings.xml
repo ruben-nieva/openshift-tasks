@@ -4,7 +4,7 @@
       <!--This sends everything else to /public -->
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://nexus.cicd.svc.cluster.local/content/groups/public/</url>
+      <url>http://nexus-artifactory.apps.10.2.2.2.xip.io/repository/maven-all-public/</url>
     </mirror>
   </mirrors>
   <profiles>
