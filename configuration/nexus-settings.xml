@@ -4,7 +4,7 @@
       <!--This sends everything else to /public -->
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
-      <url>http://nexus-artifactory.apps.10.2.2.2.xip.io/repository/maven-all-public/</url>
+      <url>http://nexus-cicd.apps.10.2.2.2.xip.io/repository/maven-all-public/</url>
     </mirror>
   </mirrors>
   
@@ -24,7 +24,7 @@
       <repositories>
         <repository>
           <id>central</id>
-          <url>http://nexus-artifactory.apps.10.2.2.2.xip.io/repository/maven-snapshots/</url>
+          <url>http://nexus-cicd.apps.10.2.2.2.xip.io/repository/maven-snapshots/</url>
           <releases><enabled>true</enabled></releases>
           <snapshots><enabled>true</enabled></snapshots>
         </repository>
