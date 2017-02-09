@@ -62,11 +62,11 @@
     <distributionManagement>
       <repository>
          <id>nexus</id>
-         <url>http://nexus-artifactory.apps.10.2.2.2.xip.io/content/repositories/releases</url>
+         <url>http://nexus-cicd.apps.10.2.2.2.xip.io/content/repositories/releases</url>
       </repository>
        <snapshotRepository>
           <id>nexus</id>
-          <url>http://nexus-artifactory.apps.10.2.2.2.xip.io/repository/maven-snapshots/</url>
+          <url>http://nexus-cicd.apps.10.2.2.2.xip.io/repository/maven-snapshots/</url>
        </snapshotRepository>
     </distributionManagement>
 
